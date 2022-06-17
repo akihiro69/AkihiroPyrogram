@@ -9,7 +9,7 @@
 from pyrogram.filters import chat
 from . import cli
 
-collection = cli["Zect"]["notes"]
+collection = cli["Akihiro"]["notes"]
 
 
 async def save_note(note_name, note_id):
