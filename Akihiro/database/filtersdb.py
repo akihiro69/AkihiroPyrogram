@@ -8,7 +8,7 @@
 
 from . import cli
 
-filter = cli["Zect"]["FILTER"]
+filter = cli["Akihiro"]["FILTER"]
 
 
 async def add_filters(keyword, chat_id, message_id) -> None:
