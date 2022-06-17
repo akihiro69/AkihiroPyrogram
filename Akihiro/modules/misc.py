@@ -6,14 +6,14 @@
 #
 # All rights reserved.
 
-from Zect import app
+from Akihiro import app
 from config import PREFIX
 
 from pyrogram import filters
 
-from Zect.database.gmutedb import get_gmuted_users, gmute_user, ungmute_user
-from Zect.helpers.pyrohelper import get_arg
-from Zect.helpers.adminhelpers import CheckAdmin
+from Akihiro.database.gmutedb import get_gmuted_users, gmute_user, ungmute_user
+from Akihiro.helpers.pyrohelper import get_arg
+from Akihiro.helpers.adminhelpers import CheckAdmin
 
 
 @app.on_message(filters.command("gmute", PREFIX) & filters.me)
