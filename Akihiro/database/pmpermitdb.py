@@ -9,7 +9,7 @@
 from . import cli
 import asyncio
 
-collection = cli["Zect"]["pmpermit"]
+collection = cli["Akihiro"]["pmpermit"]
 
 PMPERMIT_MESSAGE = (
     "`Ok! Stop Right there Read this first before sending any new messages.\n\n`"
