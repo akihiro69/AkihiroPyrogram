@@ -10,9 +10,9 @@ from pyrogram import filters
 import asyncio
 
 from pyrogram.methods import messages
-from Zect import app, CMD_HELP
-from Zect.helpers.pyrohelper import get_arg, denied_users
-import Zect.database.pmpermitdb as Zectdb
+from Akihiro import app, CMD_HELP
+from Akihiro.helpers.pyrohelper import get_arg, denied_users
+import Akihiro.database.pmpermitdb as Zectdb
 from config import PREFIX
 
 CMD_HELP.update(
