@@ -14,9 +14,9 @@ from pyrogram.types import Message, ChatPermissions
 from pyrogram.errors import UserAdminInvalid
 from pyrogram.methods.chats.get_chat_members import Filters as ChatMemberFilters
 
-from Zect import app, CMD_HELP, LOGGER
-from Zect.helpers.pyrohelper import get_arg, get_args
-from Zect.helpers.adminhelpers import CheckAdmin
+from Akihiro import app, CMD_HELP, LOGGER
+from Akihiro.helpers.pyrohelper import get_arg, get_args
+from Akihiro.helpers.adminhelpers import CheckAdmin
 from config import PREFIX
 
 CMD_HELP.update(
