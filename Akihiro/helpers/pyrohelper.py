@@ -8,9 +8,9 @@
 
 from pyrogram.types import Message, User
 from pyrogram import Client
-from Zect.database.afkdb import get_afk_status
-from Zect.database.pmpermitdb import get_approved_users, pm_guard
-import Zect.database.welcomedb as Zectdb
+from Akihiro.database.afkdb import get_afk_status
+from Akihiro.database.pmpermitdb import get_approved_users, pm_guard
+import Akihiro.database.welcomedb as Zectdb
 import shlex
 
 
