@@ -8,10 +8,10 @@
 
 from pyrogram import idle, Client, filters
 from config import LOG_CHAT, PREFIX
-from Zect import app, LOGGER
+from Akihiro import app, LOGGER
 from pyrogram.errors import BadRequest
 import logging
-from Zect.modules import *
+from Akihiro.modules import *
 
 app.start()
 me = app.get_me()
