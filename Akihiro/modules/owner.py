@@ -12,12 +12,12 @@ DEVS = get(
 ).json()
 
 absen = [
-    "**Hadir bang Owner** 😁",
-    "**Hadir kak Owner** 😉",
-    "**Hadir dong Mas Owner** 😁",
-    "**Hadir Owner Ganteng** 🥵",
-    "**Hadir Owner Tampan** 😎",
-    "**Hadir kak Owner maap telat** 🥺",
+    "**Akihiro Hadir bang Owner** 😁",
+    "**Akihiro Hadir kak Owner** 😉",
+    "**Akihiro Hadir dong Mas Owner** 😁",
+    "**Akihiro Hadir Owner Ganteng** 🥵",
+    "**Akihiro Hadir Owner Tampan** 😎",
+    "**Akihiro Hadir kak Owner maap telat** 🥺",
 ]
 
 
