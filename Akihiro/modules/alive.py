@@ -11,7 +11,7 @@ import asyncio
 import time
 from datetime import datetime
 from pyrogram import filters
-from Zect import app, StartTime, CMD_HELP
+from Akihiro import app, StartTime, CMD_HELP
 from sys import version_info
 
 from pyrogram import __version__ as __pyro_version__
