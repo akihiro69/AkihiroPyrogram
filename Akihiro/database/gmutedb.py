@@ -8,7 +8,7 @@
 
 from . import cli
 
-collection = cli["Zect"]["gmute"]
+collection = cli["Akihiro"]["gmute"]
 
 
 async def gmute_user(chat):
