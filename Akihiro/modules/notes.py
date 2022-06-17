@@ -8,9 +8,9 @@
 
 from pyrogram import filters
 
-from Zect import app, CMD_HELP
-from Zect.helpers.pyrohelper import get_arg
-import Zect.database.notesdb as Zect
+from Akihiro import app, CMD_HELP
+from Akihiro.helpers.pyrohelper import get_arg
+import Akihiro.database.notesdb as Zect
 from config import PREFIX, LOG_CHAT
 
 CMD_HELP.update(
