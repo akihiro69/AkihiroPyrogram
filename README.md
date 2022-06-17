@@ -2,7 +2,7 @@
 
 Just another telegram userbot, written in Python using the [Pyrogram](https://github.com/pyrogram/pyrogram) library
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/akihiro69/AkihiroPyrogram)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://telegram.dog/XTZ_HerokuBot?start=YWtpaGlybzY5L0FraWhpcm9QeXJvZ3JhbSBtYXN0ZXI)
 
 *How to run this bot*
 
