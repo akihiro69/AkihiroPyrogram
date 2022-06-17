@@ -13,7 +13,7 @@ import os
 import re
 import subprocess
 from io import StringIO
-from Zect import app, CMD_HELP
+from Akihiro import app, CMD_HELP
 from pyrogram import filters
 
 CMD_HELP.update(
