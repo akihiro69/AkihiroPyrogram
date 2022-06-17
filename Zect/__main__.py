@@ -7,12 +7,22 @@
 # All rights reserved.
 
 from pyrogram import idle, Client, filters
-from config import PREFIX
+from config import LOG_CHAT, PREFIX
 from Zect import app, LOGGER
+from pyrogram.errors import BadRequest
 import logging
 from Zect.modules import *
 
 app.start()
 me = app.get_me()
-print(f"Zect UserBot started for user {me.id}. Type {PREFIX}help in any telegram chat.")
-idle()
+print(f"Akihiro UserBot started for user {me.id}. Type {PREFIX}help in any telegram chat.")
+try:
+    app.send_message(
+        LOG_CHAT,
+        f"✨ **AKIHIRO-USERBOT is Activated Successfully.** ✨\n",
+    )
+    app.join_chat("akihirosupport")
+    app.join_chat("akihiroupdate")
+    idle()
+except BadRequest:
+    pass
