@@ -16,8 +16,8 @@ from pyrogram import emoji, filters
 from pyrogram.raw.functions.messages import GetStickerSet
 from pyrogram.raw.types import InputStickerSetShortName
 from pyrogram.errors import YouBlockedUser, StickersetInvalid
-from Zect.helpers.pyrohelper import get_args
-from Zect import app, CMD_HELP
+from Akihiro.helpers.pyrohelper import get_args
+from Akihiro import app, CMD_HELP
 from config import PREFIX
 
 CMD_HELP.update(
