@@ -7,9 +7,9 @@
 # All rights reserved.
 
 from pyrogram import filters
-from Zect import app, HELP, CMD_HELP
+from Akihiro import app, HELP, CMD_HELP
 from config import PREFIX
-from Zect.helpers.pyrohelper import get_arg
+from Akihiro.helpers.pyrohelper import get_arg
 
 HELP.update(
     {
