@@ -13,7 +13,7 @@ from pyrogram import filters
 from pyrogram.types import User, InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.raw import functions
 from pyrogram.errors import PeerIdInvalid
-from Zect import app
+from Akihiro import app
 from config import PREFIX
 
 
