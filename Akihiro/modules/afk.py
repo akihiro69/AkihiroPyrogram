@@ -10,13 +10,13 @@ import time
 from pyrogram import filters
 import asyncio
 
-from Zect import app, CMD_HELP
+from Akihiro import app, CMD_HELP
 from config import PREFIX, LOG_CHAT
-from Zect.helpers.pyrohelper import get_arg
-import Zect.database.afkdb as Zect
-from Zect.helpers.pyrohelper import user_afk
-from Zect.modules.alive import get_readable_time
-from Zect.helpers.utils import get_message_type, Types
+from Akihiro.helpers.pyrohelper import get_arg
+import Akihiro.database.afkdb as Zect
+from Akihiro.helpers.pyrohelper import user_afk
+from Akihiro.modules.alive import get_readable_time
+from Akihiro.helpers.utils import get_message_type, Types
 
 CMD_HELP.update(
     {
