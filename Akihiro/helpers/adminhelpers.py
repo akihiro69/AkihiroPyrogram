@@ -10,7 +10,7 @@ from time import sleep, time
 
 from pyrogram.types import Message
 
-from Zect import app
+from Akihiro import app
 
 
 async def CheckAdmin(message: Message):
