@@ -9,9 +9,9 @@
 import re
 from pyrogram import filters
 
-from Zect import app, CMD_HELP
-from Zect.helpers.pyrohelper import get_arg, welcome_chat
-import Zect.database.welcomedb as Zectdb
+from Akihiro import app, CMD_HELP
+from Akihiro.helpers.pyrohelper import get_arg, welcome_chat
+import Akihiro.database.welcomedb as Zectdb
 from config import PREFIX, LOG_CHAT
 
 
