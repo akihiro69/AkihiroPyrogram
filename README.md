@@ -1,4 +1,4 @@
-# AKIHIRO
+### AkihiroProject
 
 Just another telegram userbot, written in Python using the [Pyrogram](https://github.com/pyrogram/pyrogram) library
 
@@ -12,3 +12,5 @@ Just another telegram userbot, written in Python using the [Pyrogram](https://gi
 - `python3 makesession.py` and put the session string in config.py
 - satisfy the values in `config.py`
 - `python3 -m Akihiro`
+
+#### Thanks to [ZectUserbot](https://github.com/SHRE-YANSH/ZectUserBot) and [Prime-UserBot](https://github.com/BukanDev/Prime-Userbot) I just copied the repositories, and edited them as I wanted.
