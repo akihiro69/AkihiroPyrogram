@@ -11,7 +11,7 @@ from config import LOG_CHAT, PREFIX
 from Akihiro import app, LOGGER
 from pyrogram.errors import BadRequest
 import logging
-from Akihiro.modules import *
+from Akihiro.modules import app
 
 app.start()
 me = app.get_me()
