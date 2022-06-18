@@ -6,12 +6,14 @@
 #
 # All rights reserved.
 
-from pyrogram import idle, Client, filters
+from pyrogram import filters
+from pyrogram import Clients
+from pyrogram import idle
 from config import LOG_CHAT, PREFIX
 from Akihiro import app, LOGGER
 from pyrogram.errors import BadRequest
 import logging
-from Akihiro.modules import app
+from Akihiro.modules import *
 
 app.start()
 me = app.get_me()
